@@ -1,19 +1,17 @@
 **Accounts**
 -----------------
 
-..  |key|    image:: ../_static/icons/key.svg
-    :align: middle
-    :height: 24px
-    :class: red-border
-
-..  |pencil_square|    image:: ../_static/icons/pencil_square.svg
+..  |key|    image:: ../_static/icons/key.png
     :align: middle
     :height: 24px
 
-..  |user-minus|    image:: ../_static/icons/user-minus.svg
+..  |pencil_square|    image:: ../_static/icons/pencil_square.png
     :align: middle
     :height: 24px
-    :class: red-border
+
+..  |user-minus|    image:: ../_static/icons/user-minus.png
+    :align: middle
+    :height: 24px
 
 
 **Manage Organization**
