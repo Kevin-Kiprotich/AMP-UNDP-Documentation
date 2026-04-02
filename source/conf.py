@@ -6,7 +6,7 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'AMP'
+project = 'Africa Minigrids Program'
 copyright = '2026, LocateIT Ke'
 author = 'LocateIT Ltd'
 release = '1.0'
