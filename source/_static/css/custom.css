@@ -1,0 +1,26 @@
+.greenbox {
+    background-color: #d0f0c0;  /* light green */
+    border: 1px solid #008000;   /* dark green border */
+    padding: 10px;
+    border-radius: 5px;
+}
+.greenbox .admonition-title {
+    font-weight: bold;
+    background-color: #00d09d;  /* dark green title */
+}
+
+.greenbox table {
+    width: 100%;
+}
+.greenbox th, .greenbox td {
+    text-align: left;
+    padding: 4px 8px;
+}
+
+.red-border{
+    border: 1px solid red;
+    border-radius: 8px;
+    display: inline-block;
+    padding:4px;
+    box-sizing: border-box;
+}
