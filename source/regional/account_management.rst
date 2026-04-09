@@ -14,33 +14,7 @@
     :height: 24px
 
 
-**Manage Organization**
-~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Edit Organization**
-^^^^^^^^^^^^^^^^^^^^^^
-
-1. On the homepage click the dropdown button with your organization name.
-
-.. image:: ../_static/regional/organizations/organization_management_home.png
-
-2. On the dropdown menu click ``Manage Organization`` to open the organization page
-
-.. note::
-
-    The button may have your organization name on it.
-
-3. Click ``Manage`` and select ``Edit``.
-
-.. image:: ../_static/regional/organizations/organization_with_manage_clicked.png
-
-4. Fill the form provided and click ``SAVE CHANGES`` to save the changes.
-
-.. image:: ../_static/regional/organizations/edit_organization_form.png
-
-.. hint::
-
-    You can click ``CANCEL`` to go back or cancel the changes.
 
 
 **Manage users**

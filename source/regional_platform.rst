@@ -5,8 +5,7 @@
    :maxdepth: 3
    :caption: Contents:
 
-   .. regional/site_management
-   
+   regional/organization_management
    regional/account_management
    regional/document_management
    regional/indicators
