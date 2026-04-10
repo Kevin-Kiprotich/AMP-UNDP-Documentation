@@ -27,3 +27,123 @@
 .nav-internal{
     display:none !important;
 }
+
+.navbar-nav .nav-link {
+  color: #35454F;
+  font-weight: 500;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #1a5f7a;
+}
+
+.logo{
+    text-decoration: none;
+}
+
+.logo:hover{
+    text-decoration:none !important;
+    font-weight:800;
+}
+
+.amp-partners img {
+  max-height: 42px;
+}
+
+#navbar-logo-text{
+    text-decoration:none;
+    font-weight:600;
+}
+
+#navbar-logo-text:hover{
+    text-decoration: none;
+    font-weight:700;
+}
+
+/* Base sizing/layout */
+.amp-logo-block {
+  display: flex;
+  align-items: center;
+  gap: 0;
+  text-decoration: none;
+}
+
+.amp-logo-image {
+  height: 48px;
+}
+
+.amp-logo-divider {
+  width: 2px;
+  height: 40px;
+  margin: 0 12px;
+}
+
+.amp-logo-text {
+  line-height: 1.2;
+  font-weight: 600;
+}
+
+.amp-logo-line {
+  font-size: 0.78rem;
+}
+
+.amp-partners-image {
+  max-height: 42px;
+  object-fit: contain;
+}
+
+.navbar-nav .nav-link {
+  font-weight: 500;
+}
+
+/* LIGHT MODE */
+html[data-theme="light"] .amp-logo-text,
+html[data-theme="light"] .navbar-nav .nav-link {
+  color: #35454F;
+}
+
+html[data-theme="light"] .amp-logo-divider {
+  background-color: #35454F;
+}
+
+html[data-theme="light"] .navbar-nav .nav-link:hover {
+  color: #1a5f7a;
+}
+
+/* DARK MODE */
+html[data-theme="dark"] .amp-logo-text,
+html[data-theme="dark"] .navbar-nav .nav-link {
+  color: #e5e7eb;
+}
+
+html[data-theme="dark"] .amp-logo-divider {
+  background-color: #e5e7eb;
+}
+
+html[data-theme="dark"] .navbar-nav .nav-link:hover {
+  color: #7dd3fc;
+}
+
+/* Optional: slightly tune navbar background transitions */
+.bd-header,
+.navbar {
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.amp-logo-image-dark {
+  display: none;
+}
+
+html[data-theme="dark"] .amp-logo-image-light {
+  display: none;
+}
+
+html[data-theme="dark"] .amp-logo-image-dark {
+  display: inline-block;
+}
+
+@media (max-width: 991.98px) {
+  .amp-partners {
+    display: none !important;
+  }
+}

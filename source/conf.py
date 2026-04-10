@@ -28,21 +28,16 @@ html_theme = 'pydata_sphinx_theme'
 html_static_path = ['_static']
 html_css_files=['css/custom.css']
 
-
 html_theme_options = {
-	'canonical_url': '',
-    'analytics_id': '',  #  Provided by Google in your dashboard
-    #'analytics_anonymize_ip': False,
-    'logo_only': False,
-    'display_version': True,
-    'prev_next_buttons_location': 'bottom',
-    'style_external_links': False,
-    #'vcs_pageview_mode': '',
-    'style_nav_header_background': 'black',
-    # Toc options
-    'collapse_navigation': False,
-    'sticky_navigation': True,
-    'navigation_depth': 5,
-    'includehidden': False,
-    'titles_only': False
-	}
+    "logo": {
+        "image_light": "_static/amp/AMP-logo-blue.png",
+        "image_dark": "_static/amp/AMP-logo-blue.png",
+        "text": "AFRICA MINIGRIDS PROGRAM (AMP) DIGITAL PLATFORM",
+    },
+    "navbar_start": ["navbar_logo"],
+    # "navbar_center": ["navbar-nav"],
+    "navbar_end": ["amp_partners", "theme-switcher", "navbar-icon-links"],
+    "header_links_before_dropdown": 5,
+    "show_nav_level": 1,
+    "navigation_with_keys": True,
+}
