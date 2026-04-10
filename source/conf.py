@@ -41,3 +41,47 @@ html_theme_options = {
     "show_nav_level": 1,
     "navigation_with_keys": True,
 }
+
+latex_logo = "_static/amp/AMP-logo-blue.png"
+
+latex_additional_files = ["_static/amp/partners-en.png"]
+
+latex_elements = {
+    "preamble": r"""
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{xcolor}
+
+\setlength{\headheight}{33pt}
+\addtolength{\topmargin}{-21pt}
+
+\fancypagestyle{ampstyle}{
+  \fancyhf{}
+  \fancyhead{}
+  \fancyhead[L]{\includegraphics[height=0.8cm]{AMP-logo-blue.png}}
+  \fancyhead[C]{\textcolor[HTML]{35454F}{\small\textbf{AFRICA MINIGRIDS PROGRAM (AMP)}}}
+  \fancyhead[R]{\includegraphics[height=0.8cm]{partners-en.png}}
+  \fancyfoot[C]{\thepage}
+  \renewcommand{\headrulewidth}{0.4pt}
+  \renewcommand{\footrulewidth}{0pt}
+}
+
+\pagestyle{ampstyle}
+\fancypagestyle{plain}{
+  \fancyhf{}
+  \fancyhead{}
+  \fancyhead[L]{\includegraphics[height=0.8cm]{AMP-logo-blue.png}}
+  \fancyhead[C]{\textcolor[HTML]{35454F}{\small\textbf{AFRICA MINIGRIDS PROGRAM (AMP)}}}
+  \fancyhead[R]{\includegraphics[height=0.8cm]{partners-en.png}}
+  \fancyfoot[C]{\thepage}
+  \renewcommand{\headrulewidth}{0.4pt}
+  \renewcommand{\footrulewidth}{0pt}
+}
+
+\makeatletter
+\let\ps@normal\ps@ampstyle
+\let\ps@plain\ps@ampstyle
+\let\ps@empty\ps@ampstyle
+\makeatother
+""",
+}

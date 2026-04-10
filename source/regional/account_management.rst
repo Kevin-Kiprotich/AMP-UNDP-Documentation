@@ -1,4 +1,4 @@
-**Accounts**
+Accounts
 -----------------
 
 ..  |key|    image:: ../_static/icons/key.png
@@ -14,13 +14,10 @@
     :height: 24px
 
 
-
-
-
-**Manage users**
+Manage users
 ~~~~~~~~~~~~~~~~~~~
 
-**Invite user**
+Invite user
 ^^^^^^^^^^^^^^^^^
 1. On the homepage click the dropdown button with your organization name.
 
@@ -34,7 +31,7 @@
 
 .. image:: ../_static/regional/organizations/invite_user.jpg
 
-**Update user privileges**
+Update user privileges
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 1. On the homepage click the dropdown button with your organization name
 
@@ -52,7 +49,7 @@
 
 .. image:: ../_static/regional/organizations/update_priviledges.png
 
-**Remove user**
+Remove user
 ^^^^^^^^^^^^^^^^^
 
 1. On the homepage click the dropdown button with your organization name

@@ -1,4 +1,4 @@
-**Organization Management**
+Organization Management
 ----------------------------
 
 
@@ -15,7 +15,7 @@
     :height: 32px
 
 
-**Create Organization - Admin**
+Create Organization - Admin
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 1. On the homepage, click ``Admin`` on the yellow navigation bar.
 
@@ -30,7 +30,7 @@
 .. image:: ../_static/regional/organizations/organization_creation_form.png
 
 
-**Edit Organization - Admin**
+Edit Organization - Admin
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 1. On the homepage, click ``Admin`` on the yellow navigation bar.
 
@@ -49,7 +49,7 @@
 .. image:: ../_static/regional/organizations/edit_organization_form_admin.png
 
 
-**Delete Organization - Admin**
+Delete Organization - Admin
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 1. On the homepage, click ``Admin`` on the yellow navigation bar.
@@ -67,7 +67,7 @@
     Deleting an organization is irreversible. All data associated with the organization will be lost.
 
 
-**Edit Organization**
+Edit Organization
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 1. On the homepage click the dropdown button with your organization name.

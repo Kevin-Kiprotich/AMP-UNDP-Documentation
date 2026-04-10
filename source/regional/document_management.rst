@@ -1,4 +1,4 @@
-**Document Management**
+Document Management
 -------------------------
 
 1. Click "Documents".

@@ -1,4 +1,4 @@
-**Indicators**
+Indicators
 -------------------
 
 1. Click ``Indicators`` to open the QAMF Dashboard of Indicators.
@@ -20,11 +20,11 @@
       :widths: 30 70
       :header-rows: 1
 
-      * - Category
-        - Meaning
-      * - **Infrastructure**
+      * - **Category**
+        - **Meaning**
+      * - Infrastructure
         - Infrastructure and their performance
-      * - **Financials**
+      * - Financials
         - Financial indicators
       * - Service End Points
         - People and zones served
@@ -43,4 +43,3 @@
 -  Go back to the ``Dashboard of Indicators`` page by clicking ``Current Indicators``.
 
 .. image:: ../_static/media/image11.png
-

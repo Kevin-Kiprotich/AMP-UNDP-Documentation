@@ -1,4 +1,4 @@
-**Site Management**
+Site Management
 ------------------------
 
 1. Click ``Sites`` to open the sites page

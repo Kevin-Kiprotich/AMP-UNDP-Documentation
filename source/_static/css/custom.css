@@ -29,12 +29,12 @@
 }
 
 .navbar-nav .nav-link {
-  color: #35454F;
+  color: var(--pst-color-primary);
   font-weight: 500;
 }
 
 .navbar-nav .nav-link:hover {
-  color: #1a5f7a;
+  color: var(--pst-color-primary);
 }
 
 .logo{
@@ -81,6 +81,7 @@
 .amp-logo-text {
   line-height: 1.2;
   font-weight: 600;
+  color: var(--pst-color-text-base)
 }
 
 .amp-logo-line {
@@ -99,7 +100,7 @@
 /* LIGHT MODE */
 html[data-theme="light"] .amp-logo-text,
 html[data-theme="light"] .navbar-nav .nav-link {
-  color: #35454F;
+  color: var(--pst-color-text-base);
 }
 
 html[data-theme="light"] .amp-logo-divider {
@@ -113,7 +114,7 @@ html[data-theme="light"] .navbar-nav .nav-link:hover {
 /* DARK MODE */
 html[data-theme="dark"] .amp-logo-text,
 html[data-theme="dark"] .navbar-nav .nav-link {
-  color: #e5e7eb;
+  color: var(--pst-color-text-base);
 }
 
 html[data-theme="dark"] .amp-logo-divider {
